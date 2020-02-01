@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/source/LostWoods/Library
+/source/LostWoods/Logs
+/source/LostWoods/Packages
+/source/LostWoods/Temp
+/source/LostWoods/ProjectSettings
