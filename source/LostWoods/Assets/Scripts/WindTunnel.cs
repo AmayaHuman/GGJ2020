@@ -5,7 +5,7 @@ using UnityEngine;
 public class WindTunnel : MonoBehaviour
 {
     private Rigidbody in_the_wind;
-    public float strength = 10;
+    public float strength = 1;
     
 
     // Start is called before the first frame update
