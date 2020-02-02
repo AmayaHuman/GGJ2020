@@ -26,6 +26,10 @@
 *.meta
 *.unitypackage.meta
 
+!/source/LostWoods/[Aa]ssets/**/*.meta
+/source/LostWoods/*.meta
+/source/LostWoods/*.unitypackage.meta
+
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 
