@@ -77,4 +77,4 @@ source/LostWoods/Assets/PlayMaker/Editor/*/*.meta
 source/LostWoods/Assets/PlayMaker/Editor/*/*.unitypackage.meta
 
 # Wwise
-.cache/
+source/LostWoods/LostWoods_WwiseProject/.cache
