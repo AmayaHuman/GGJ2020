@@ -1,5 +1,17 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!245 &-4013367195130859260
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Layer_4_Off
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 738509bf7b0fb458186d170b9c167dc3
+  m_FloatValues:
+    986ac5cee3229413aa31374c53caf768: -80
+  m_TransitionOverrides: {}
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -11,6 +23,8 @@ AudioMixerController:
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
+  - {fileID: 8634414229045498795}
+  - {fileID: -4013367195130859260}
   m_StartSnapshot: {fileID: 24500006}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
@@ -66,4 +80,16 @@ AudioMixerSnapshotController:
   m_SnapshotID: ee5d27c6eeb3743e5b9b1d480e83c471
   m_FloatValues:
     986ac5cee3229413aa31374c53caf768: -80
+  m_TransitionOverrides: {}
+--- !u!245 &8634414229045498795
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Layer_4_On
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 72684b1c588f04967a82171b3066f305
+  m_FloatValues:
+    986ac5cee3229413aa31374c53caf768: -0.0024418721
   m_TransitionOverrides: {}
