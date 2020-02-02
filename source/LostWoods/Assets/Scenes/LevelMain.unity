@@ -30766,7 +30766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b4ff6af06b584ebaa4bf5759662dd89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mySnapshot: {fileID: 0}
+  mySnapshot: {fileID: 6663410983444166504, guid: 334a8d805c11547cbb08f48c2637c2a1,
+    type: 2}
   fadeTime: 3
   delayTime: 0
 --- !u!65 &1484408133
@@ -48733,7 +48734,8 @@ PrefabInstance:
         type: 3}
       propertyPath: mySnapshot
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -720640650278675107, guid: 334a8d805c11547cbb08f48c2637c2a1,
+        type: 2}
     - target: {fileID: 7796659096448303239, guid: e58f2e07b5f214dc9ad7c2e14cca4989,
         type: 3}
       propertyPath: m_Size.y
