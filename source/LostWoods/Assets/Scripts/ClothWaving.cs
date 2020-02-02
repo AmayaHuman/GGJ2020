@@ -19,7 +19,7 @@ public class ClothWaving : MonoBehaviour
     void Update()
     {
         dowward_rot.SetFromToRotation(transform.forward * -1,Vector3.down);
-        transform.rotation = Quaternion.Slerp(transform.rotation, target_rot, Time.deltaTime);
+        transform.rotation = Quaternion.Slerp(transform.rotation, target_rot, 2*Time.deltaTime);
     }
 
     void OnTriggerEnter(Collider other)
