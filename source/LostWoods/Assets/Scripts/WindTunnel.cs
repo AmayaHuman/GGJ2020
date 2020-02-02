@@ -5,7 +5,7 @@ using UnityEngine;
 public class WindTunnel : MonoBehaviour
 {
     private Rigidbody in_the_wind;
-    public float strength = 10;
+    public float strength = 1;
     
 
     // Start is called before the first frame update
@@ -31,7 +31,7 @@ public class WindTunnel : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.name == "Cloth")
+        if (other.gameObject.name.StartsWith("Cloth"))
         {
             in_the_wind = other.attachedRigidbody;
 
@@ -40,7 +40,7 @@ public class WindTunnel : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
 
-        if (other.gameObject.name == "Cloth")
+        if (other.gameObject.name.StartsWith("Cloth"))
         {
             in_the_wind = null;
         }
