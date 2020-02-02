@@ -6,7 +6,7 @@ AudioMixerSnapshotController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Layr_1_On
+  m_Name: Layer_1_On
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 37f7204b7165643538b99b30674212e4
   m_FloatValues: {}
@@ -34,7 +34,7 @@ AudioMixerController:
     - 18baa8050feda47e0b11463c45b15a98
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 24500006}
+  m_TargetSnapshot: {fileID: -720640650278675107}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -85,7 +85,7 @@ AudioMixerSnapshotController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Layr_1_Off
+  m_Name: Layer_1_Off
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 5c740bd9dc97d42df910b5761677910e
   m_FloatValues:
