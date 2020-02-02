@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FailTeleport : MonoBehaviour
+public class Teleport : MonoBehaviour
 {
     public GameObject teleport_to;
 
