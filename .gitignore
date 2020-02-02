@@ -75,3 +75,6 @@ source/LostWoods/Assets/PlayMaker/Versions/*.meta
 source/LostWoods/Assets/PlayMaker/Versions/*.unitypackage.meta
 source/LostWoods/Assets/PlayMaker/Editor/*/*.meta
 source/LostWoods/Assets/PlayMaker/Editor/*/*.unitypackage.meta
+
+# Wwise
+.cache/
